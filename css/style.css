@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 800px;
+    margin : 0 auto;
+}
+
+
+main{
+    background-color: #19d4d1;
+    color: black;
+    margin:   2rem auto;
+    text-align: center;
+    font-size: 1.2rem;
+ 
+}
+
+div.grid{
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+div.grid .cell{
+    width: calc( 100% / 10);
+    height: calc( 100% / 10);
+    cursor:crosshair;
+    
+    
+}
+
+
+div.grid,
+div.grid .cell{
+    border: 2px solid black;
+    
+  
+}
+.cell-color{
+    background-color: rgb(8, 133, 223);
+}
